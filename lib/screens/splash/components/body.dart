@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:login/constants.dart';
-import 'package:login/screens/mobile/mobile_screen.dart';
-import 'package:login/screens/sign_in/sign_in_screen.dart';
+import 'package:login/screens/foodshop/foodshop.dart';
+//import 'package:login/screens/mobile/mobile_screen.dart';
+//import 'package:login/screens/sign_in/sign_in_screen.dart';
 import 'package:login/size_config.dart';
 
 import '../components/splash_content.dart';
@@ -71,7 +72,7 @@ class _BodyState extends State<Body> {
                     DefaultButton(
                       text: "Continue",
                       press: () {
-                        Navigator.pushNamed(context, MobileScreen.routeName);
+                        Navigator.pushNamed(context, FoodShop.routeName);
                       },
                     ),
                     Spacer(),
