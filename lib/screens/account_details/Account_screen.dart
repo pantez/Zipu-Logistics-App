@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 // import 'package:f_groceries/model/Address_model.dart';
 // import 'package:f_groceries/services/address_services.dart';
 
-class Account_Screen extends StatefulWidget {
+class Account_screen extends StatefulWidget {
+  static String routeName = "/account_details";
   @override
   State<StatefulWidget> createState() => account();
 }

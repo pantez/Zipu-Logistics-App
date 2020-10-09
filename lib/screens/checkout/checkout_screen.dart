@@ -2,6 +2,7 @@ import 'package:login/screens/Payment/Payment_Screen.dart';
 import 'package:flutter/material.dart';
 
 class Checkout extends StatefulWidget {
+  static String routeName = "/checkout";
   @override
   State<StatefulWidget> createState() => check_out();
 }
