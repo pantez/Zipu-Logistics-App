@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Patment extends StatefulWidget {
+  static String routeName = "/Payment";
   @override
   State<StatefulWidget> createState() => payment();
 }

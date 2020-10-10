@@ -3,13 +3,15 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_range_slider/flutter_range_slider.dart';
 
-class Oder_History extends StatefulWidget {
+class Order_History extends StatefulWidget {
   final String toolbarname;
+  static String routeName = "/OrderHistory";
 
-  Oder_History({Key key, this.toolbarname}) : super(key: key);
+
+  Order_History({Key key, this.toolbarname}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => oder_history(toolbarname);
+  State<StatefulWidget> createState() => order_history(toolbarname);
 }
 
 class Item {
@@ -31,7 +33,7 @@ class Item {
       this.cancelOder});
 }
 
-class oder_history extends State<Oder_History> {
+class order_history extends State<Order_History> {
   List list = ['12', '11'];
   bool checkboxValueA = true;
   bool checkboxValueB = false;
@@ -84,7 +86,7 @@ class oder_history extends State<Oder_History> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   String toolbarname;
 
-  oder_history(this.toolbarname);
+  order_history(this.toolbarname);
 
   @override
   Widget build(BuildContext context) {
