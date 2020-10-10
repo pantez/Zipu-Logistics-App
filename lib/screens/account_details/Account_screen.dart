@@ -8,7 +8,7 @@ class Account_screen extends StatefulWidget {
   State<StatefulWidget> createState() => account();
 }
 
-class account extends State<Account_Screen> {
+class account extends State<Account_screen> {
   String username = 'Naomi A. Schultz';
   String mobilenumber = '410-422-9171';
   String eid = 'NaomiASchultz@armyspy.com';
