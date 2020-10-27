@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:login/screens/HeavyOrder/heavyorder_screen.dart';
+import 'package:login/screens/OrderHistory/orderhistory_screen.dart';
+import 'package:login/screens/cart%20copy/cart_screen.dart';
+import 'package:login/screens/cart/cart_screen.dart';
+import 'package:login/screens/medicine/medicine_screen.dart';
 
 import '../../../size_config.dart';
 import 'section_title.dart';
+import 'package:login/screens/foodshop/foodshop.dart';
 
-class SpecialOffers extends StatelessWidget {
-  const SpecialOffers({
+
+class MainCategories extends StatelessWidget {
+  const MainCategories({
     Key key,
   }) : super(key: key);
 
@@ -28,14 +35,15 @@ class SpecialOffers extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/drugs.jpg",
                 category: "Medicine Order",
-                press: () {},
+              press: () => Navigator.pushNamed(context, CartScreen1.routeName),
+
               ),
 
               SpecialOfferCard(
                 image: "assets/images/Home Order.jpg",
-                category: "Home Order",
+                category: "Pickup & Drop",
       
-                press: () {},
+              press: () => Navigator.pushNamed(context, Heavyorder.routeName),
               ),
               SizedBox(width: getProportionateScreenWidth(20)),
                               SizedBox(height: getProportionateScreenHeight(20)),
@@ -52,13 +60,14 @@ class SpecialOffers extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/Food.png",
                 category: "Food Delivery",
-                press: () {},
+                press: () => Navigator.pushNamed(context, MedicineScreen.routeName),
               ),
               SpecialOfferCard(
                 image: "assets/images/Groccery.jpg",
                 category: "Groceries & Essentials",
                 
-                press: () {},
+              press: () => Navigator.pushNamed(context, FoodShop.routeName),
+
               ),
               SizedBox(width: getProportionateScreenWidth(20)),
             ],

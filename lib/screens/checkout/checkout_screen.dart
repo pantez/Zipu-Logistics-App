@@ -1,5 +1,6 @@
 import 'package:login/screens/Payment/Payment_Screen.dart';
 import 'package:flutter/material.dart';
+import 'package:login/screens/navigation.dart';
 
 class Checkout extends StatefulWidget {
   static String routeName = "/checkout";
@@ -15,6 +16,7 @@ class Item {
   Item({this.itemName, this.itemQun, this.itemPrice});
 }
 
+// ignore: camel_case_types
 class check_out extends State<Checkout> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   bool checkboxValueA = true;
@@ -45,7 +47,7 @@ class check_out extends State<Checkout> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+    
 
     final double height = MediaQuery.of(context).size.height;
 
@@ -54,9 +56,8 @@ class check_out extends State<Checkout> {
         icon: Icon(_backIcon()),
         alignment: Alignment.centerLeft,
         tooltip: 'Back',
-        onPressed: () {
-          Navigator.pop(context);
-        },
+         onPressed: () => Navigator.pushNamed(context, HomeScreen1.routeName),
+        
       ),
       title: Text(toolbarname),
       backgroundColor: Colors.white,
@@ -161,7 +162,7 @@ class check_out extends State<Checkout> {
             ),
           ),
           Container(
-              height: 165.0,
+              height: 181.0,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[

@@ -23,6 +23,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_maps_place_picker: ^1.0.0
+  curved_navigation_bar: ^0.3.4
+  carousel_pro: ^0.0.13
+  flutter_range_slider: "^1.0.1"
+  http: ^0.12.2
+  scoped_model: ^1.0.1
+
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -32,8 +40,7 @@ dependencies:
   provider: ^4.3.1 # for State management
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

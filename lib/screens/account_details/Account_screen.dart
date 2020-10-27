@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 // import 'package:f_groceries/model/Address_model.dart';
 // import 'package:f_groceries/services/address_services.dart';
 
+// ignore: camel_case_types
 class Account_screen extends StatefulWidget {
   static String routeName = "/account_details";
   @override
   State<StatefulWidget> createState() => account();
 }
 
+// ignore: camel_case_types
 class account extends State<Account_screen> {
   String username = 'Naomi A. Schultz';
   String mobilenumber = '410-422-9171';
@@ -15,7 +17,6 @@ class account extends State<Account_screen> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
 
     Icon ofericon = Icon(
       Icons.edit,
@@ -58,7 +59,7 @@ class account extends State<Account_screen> {
           Container(
             margin: EdgeInsets.all(7.0),
             alignment: Alignment.topCenter,
-            height: 260.0,
+            height: 269.0,
             child: Card(
               elevation: 3.0,
               child: Column(
@@ -154,13 +155,13 @@ class account extends State<Account_screen> {
             ),
           ),
           Container(
-              height: 165.0,
+              height: 181.0,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   Container(
                     height: 165.0,
-                    width: 230.0,
+                    width: 241.0,
                     margin: EdgeInsets.all(7.0),
                     child: Card(
                       elevation: 3.0,
@@ -260,7 +261,7 @@ class account extends State<Account_screen> {
                   ),
                   Container(
                     height: 130.0,
-                    width: 230.0,
+                    width: 239.0,
                     margin: EdgeInsets.all(7.0),
                     child: Card(
                       elevation: 3.0,
@@ -360,7 +361,7 @@ class account extends State<Account_screen> {
                   ),
                   Container(
                     height: 130.0,
-                    width: 230.0,
+                    width: 239.0,
                     margin: EdgeInsets.all(7.0),
                     child: Card(
                       elevation: 3.0,

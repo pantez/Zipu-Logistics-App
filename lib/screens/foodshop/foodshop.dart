@@ -53,18 +53,24 @@ class _MyHomePageState extends State<FoodShop> {
 */
               Text(
                 "Fruits and Vegetables",
+                     textAlign: TextAlign.right,
+
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
+                  
                 ),
               ),
 
-                    Icon(
-                      Icons.filter_list,
-                      color: Colors.black,
+                  Icon(
+                      Icons.hourglass_empty,
+                      color: Colors.white,
                       size: 26,
                     ),
+     // Filter list not required               
+                    
+
                   ],
                 ),
               ),

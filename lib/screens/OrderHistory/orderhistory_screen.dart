@@ -1,17 +1,17 @@
-// import 'package:f_groceries/Cart_Screen.dart';
-// import 'package:f_groceries/item_details.dart';
+//import 'package:login/Cart_Screen.dart';
+//import 'package:login/item_details.dart';
 import 'package:flutter/material.dart';
-// import 'package:flutter_range_slider/flutter_range_slider.dart';
+import 'package:flutter_range_slider/flutter_range_slider.dart';
 
-class Order_History extends StatefulWidget {
+class Oder_History extends StatefulWidget {
   final String toolbarname;
+
   static String routeName = "/OrderHistory";
 
-
-  Order_History({Key key, this.toolbarname}) : super(key: key);
+  Oder_History({Key key, this.toolbarname}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => order_history(toolbarname);
+  State<StatefulWidget> createState() => oder_history(toolbarname);
 }
 
 class Item {
@@ -33,7 +33,8 @@ class Item {
       this.cancelOder});
 }
 
-class order_history extends State<Order_History> {
+// ignore: camel_case_types
+class oder_history extends State<Oder_History> {
   List list = ['12', '11'];
   bool checkboxValueA = true;
   bool checkboxValueB = false;
@@ -86,7 +87,7 @@ class order_history extends State<Order_History> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   String toolbarname;
 
-  order_history(this.toolbarname);
+  oder_history(this.toolbarname);
 
   @override
   Widget build(BuildContext context) {
@@ -121,7 +122,7 @@ class order_history extends State<Order_History> {
               Navigator.pop(context);
             },
           ),
-          title: Text(toolbarname),
+          title: Text('Order History'),
           backgroundColor: Colors.white,
         ),
         body: ListView.builder(
