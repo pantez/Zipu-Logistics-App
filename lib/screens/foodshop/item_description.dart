@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:food_shop/item.dart';
 
 import 'item.dart';
 
@@ -164,7 +163,7 @@ class ItemDescription extends StatelessWidget {
 
                           Container(
                             child: Text(
-                              r"$ " + item.price,
+                              r"Rs. " + item.price,
                                style: TextStyle(
                                 fontSize: 36,
                                 fontWeight: FontWeight.bold,

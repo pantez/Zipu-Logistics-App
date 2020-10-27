@@ -51,7 +51,6 @@ class payment extends State<Patment> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
 
     final double height = MediaQuery.of(context).size.height;
 
@@ -163,7 +162,7 @@ class payment extends State<Patment> {
                       padding:
                           const EdgeInsets.fromLTRB(15.0, 15.0, 15.0, 15.0),
                       child: Text(
-                          "GET EXTRA 5% OFF* with MONEY bank Simply Save Credit card. T&C.",
+                          "For any kind of additional information or guide or T&C. Can be written here. It can be hidden as well",
                           maxLines: 10,
                           style: TextStyle(
                               fontSize: 13.0, color: Colors.black87))),

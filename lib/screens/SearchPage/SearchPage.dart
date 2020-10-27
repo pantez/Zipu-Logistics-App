@@ -28,13 +28,13 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   void shoesImage() {
-    listShoesImage.add("images/shoes_1.png");
-    listShoesImage.add("images/shoes_2.png");
-    listShoesImage.add("images/shoes_3.png");
-    listShoesImage.add("images/shoes_4.png");
-    listShoesImage.add("images/shoes_5.png");
-    listShoesImage.add("images/shoes_6.png");
-    listShoesImage.add("images/shoes_7.png");
+    listShoesImage.add("login/assets/images/shoes_1.png");
+    listShoesImage.add("login/assets/images/shoes_2.png");
+    listShoesImage.add("login/assets/images/shoes_3.png");
+    listShoesImage.add("login/assets/images/shoes_4.png");
+    listShoesImage.add("login/assets/images/shoes_5.png");
+    listShoesImage.add("login/assets/images/shoes_6.png");
+    listShoesImage.add("login/assets/images/shoes_7.png");
   }
 
   @override
