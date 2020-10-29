@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login/models/Shops.dart';
-import 'package:login/screens/foodshop/foodshop.dart';
+import 'package:login/screens/OrderMedicine/OrderScreen.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
@@ -42,7 +42,7 @@ class ShopCard extends StatelessWidget {
             ),
             SizedBox(height: 10),
             GestureDetector(
-          onTap: () => Navigator.pushNamed(context, FoodShop.routeName),
+          onTap: () => Navigator.pushNamed(context, OrderScreen.routeName),
           child: Text(
             "Select",
             style: TextStyle(

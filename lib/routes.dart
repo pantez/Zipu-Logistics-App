@@ -1,5 +1,6 @@
 
 import 'package:flutter/widgets.dart';
+import 'package:login/screens/OrderMedicine/OrderScreen.dart';
 import 'package:login/screens/PickupDrop/components/OrderDetails.dart';
 import 'package:login/screens/PickupDrop/components/Reciverdetails.dart';
 import 'package:login/screens/PickupDrop/components/senderdetails.dart';
@@ -51,7 +52,7 @@ DetailsScreen.routeName: (context) => DetailsScreen(),
   SenderDetails1.routeName: (context) =>  SenderDetails1(),
   Receiver1.routeName: (context) =>  Receiver1(),
   OrderDetails.routeName: (context) => OrderDetails(),
-
+OrderScreen.routeName: (context) => OrderScreen(),
 
 
   };
