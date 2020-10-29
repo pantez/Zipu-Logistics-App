@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:login/screens/HeavyOrder/heavyorder_screen.dart';
+import 'package:login/screens/PickupDrop/heavyorder_screen.dart';
 import 'package:login/screens/OrderHistory/orderhistory_screen.dart';
 import 'package:login/screens/Payment/Payment_Screen.dart';
-import 'package:login/screens/SearchPage/SearchPage.dart';
 import 'package:login/screens/account_details/Account_screen.dart';
 import 'package:login/screens/account_details/Account_screen.dart';
 import 'package:login/screens/account_details/Account_screen.dart';

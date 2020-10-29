@@ -1,11 +1,11 @@
 
 import 'package:flutter/widgets.dart';
-import 'package:login/screens/HeavyOrder/components/Reciverdetails.dart';
-import 'package:login/screens/HeavyOrder/components/senderdetails.dart';
-import 'package:login/screens/HeavyOrder/heavyorder_screen.dart';
+import 'package:login/screens/PickupDrop/components/OrderDetails.dart';
+import 'package:login/screens/PickupDrop/components/Reciverdetails.dart';
+import 'package:login/screens/PickupDrop/components/senderdetails.dart';
+import 'package:login/screens/PickupDrop/heavyorder_screen.dart';
 import 'package:login/screens/OrderHistory/orderhistory_screen.dart';
-import 'package:login/screens/SearchPage/SearchPage.dart';
-import 'package:login/screens/cart%20copy/cart_screen.dart';
+import 'package:login/screens/OrderMedicine/cart_screen.dart';
 import 'package:login/screens/cart/cart_screen.dart';
 import 'package:login/screens/checkout/checkout_screen.dart';
 import 'package:login/screens/details/details_screen.dart';
@@ -43,7 +43,6 @@ DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
   Checkout.routeName: (context) => Checkout(),
   Oder_History.routeName: (context) => Oder_History(),
-   SearchPage.routeName: (context) => SearchPage(),
   MedicineScreen.routeName: (context) => MedicineScreen(),
   Heavyorder.routeName: (context) => Heavyorder(),
   HomeScreen1.routeName: (context) => HomeScreen1(),
@@ -51,6 +50,7 @@ DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen1.routeName: (context) => CartScreen1(),
   SenderDetails1.routeName: (context) =>  SenderDetails1(),
   Receiver1.routeName: (context) =>  Receiver1(),
+  OrderDetails.routeName: (context) => OrderDetails(),
 
 
 

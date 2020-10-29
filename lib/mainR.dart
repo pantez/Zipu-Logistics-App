@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:login/routes.dart';
-import 'package:login/screens/HeavyOrder/heavyorder_screen.dart';
 import 'package:login/screens/medicine/medicine_screen.dart';
 import 'package:login/screens/splash/splash_screen.dart';
 import 'package:login/theme.dart';

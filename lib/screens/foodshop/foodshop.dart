@@ -164,7 +164,7 @@ class _MyHomePageState extends State<FoodShop> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                   Text(
-                    r"$ " + item.price,
+                    r"Rs " + item.price,
                     textAlign: TextAlign.left,
                     style: TextStyle(
                       color: Colors.black,

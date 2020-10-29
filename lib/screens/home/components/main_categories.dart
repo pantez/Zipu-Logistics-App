@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login/screens/HeavyOrder/heavyorder_screen.dart';
+import 'package:login/screens/PickupDrop/heavyorder_screen.dart';
 import 'package:login/screens/OrderHistory/orderhistory_screen.dart';
-import 'package:login/screens/cart%20copy/cart_screen.dart';
+import 'package:login/screens/OrderMedicine/cart_screen.dart';
 import 'package:login/screens/cart/cart_screen.dart';
 import 'package:login/screens/medicine/medicine_screen.dart';
 
