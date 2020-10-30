@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login/screens/PickupDrop/heavyorder_screen.dart';
-import 'package:login/screens/OrderHistory/orderhistory_screen.dart';
 import 'package:login/screens/OrderMedicine/cart_screen.dart';
-import 'package:login/screens/cart/cart_screen.dart';
-import 'package:login/screens/medicine/medicine_screen.dart';
+import 'package:login/screens/fooddelivery/HomePage.dart';
 
 import '../../../size_config.dart';
 import 'section_title.dart';
@@ -60,7 +58,7 @@ class MainCategories extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/Food.png",
                 category: "Food Delivery",
-                press: () => Navigator.pushNamed(context, MedicineScreen.routeName),
+                press: () => Navigator.pushNamed(context, HomePage.routeName),
               ),
               SpecialOfferCard(
                 image: "assets/images/Groccery.jpg",

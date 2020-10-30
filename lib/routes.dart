@@ -10,6 +10,7 @@ import 'package:login/screens/OrderMedicine/cart_screen.dart';
 import 'package:login/screens/cart/cart_screen.dart';
 import 'package:login/screens/checkout/checkout_screen.dart';
 import 'package:login/screens/details/details_screen.dart';
+import 'package:login/screens/fooddelivery/HomePage.dart';
 import 'package:login/screens/foodshop/foodshop.dart';
 import 'package:login/screens/forgot_password/forgot_password_screen.dart';
 import 'package:login/screens/home/home_screen.dart';
@@ -53,6 +54,6 @@ DetailsScreen.routeName: (context) => DetailsScreen(),
   Receiver1.routeName: (context) =>  Receiver1(),
   OrderDetails.routeName: (context) => OrderDetails(),
 OrderScreen.routeName: (context) => OrderScreen(),
-
+HomePage.routeName: (context) => HomePage(),
 
   };
